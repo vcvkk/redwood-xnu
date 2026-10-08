@@ -46,6 +46,25 @@ jobs:
           sudo ditto $PWD/dst/usr/local / || true
           ls -la /usr/local/include/firehose 2>/dev/null || find $PWD/dst -name "*firehose*" | head
 
+          # CTF tools (ctfconvert/ctfmerge/ctfdump) from Apple dtrace sources
+          curl -fsSL -o dt.tar.gz \
+            https://github.com/apple-oss-distributions/dtrace/archive/refs/tags/dtrace-262.tar.gz
+          tar xzf dt.tar.gz
+          cd dtrace-262
+          mkdir -p obj sym dst
+          set +e
+          xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge \
+            ARCHS=x86_64 SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
+            CODE_SIGNING_ALLOWED=never -quiet
+          echo "ctf tools build exit: $?"
+          set -e
+          sudo ditto $PWD/dst/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain / 2>/dev/null \
+            || sudo ditto $PWD/dst/usr/local / 2>/dev/null \
+            || sudo ditto $PWD/dst/ /usr/local/ 2>/dev/null || true
+          find / -name "ctfconvert" -maxdepth 6 2>/dev/null | head -3
+          sudo cp $(find $PWD/dst -name ctfconvert -o -name ctfmerge -o -name ctfdump | head -5) /usr/local/bin/ 2>/dev/null || true
+          ls -la /usr/local/bin/ctf* 2>/dev/null || echo "CTF tools not in /usr/local/bin yet" 
+
       - name: Build XNU (DEVELOPMENT, ARM64)
         run: |
           set -o pipefail
