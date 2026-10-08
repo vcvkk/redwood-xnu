@@ -23,46 +23,40 @@ jobs:
 
       - name: Fetch build dependencies
         run: |
+          exec > >(tee deps.log) 2>&1
           set -x
-          # AvailabilityVersions: тег 32.30.1 (пара к xnu-4570, по рецепту fergofrog)
           curl -fsSL -o av.tar.gz \
             https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-32.30.1.tar.gz
           tar xzf av.tar.gz
           cd AvailabilityVersions-*
-          sudo make install SRCROOT=$PWD DSTROOT=/ >/dev/null
+          sudo make install SRCROOT=$PWD DSTROOT=/ || echo "WARN: av install rc=$?"
+          cd ..
 
-          # libfirehose_kernel из libdispatch (913.30.4 — пара к xnu-4570.41.2)
           curl -fsSL -o ld.tar.gz \
             https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
           tar xzf ld.tar.gz
           cd libdispatch-*
           mkdir -p obj sym dst
-          set +e
           xcodebuild install -sdk macosx -target libfirehose_kernel \
             SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
-            ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never -quiet
-          echo "libfirehose build exit: $?"
-          set -e
+            ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never -quiet || echo "WARN: firehose rc=$?"
           sudo ditto $PWD/dst/usr/local / || true
-          ls -la /usr/local/include/firehose 2>/dev/null || find $PWD/dst -name "*firehose*" | head
+          cd ..
 
-          # CTF tools (ctfconvert/ctfmerge/ctfdump) from Apple dtrace sources
           curl -fsSL -o dt.tar.gz \
             https://github.com/apple-oss-distributions/dtrace/archive/refs/tags/dtrace-262.tar.gz
           tar xzf dt.tar.gz
           cd dtrace-262
           mkdir -p obj sym dst
-          set +e
           xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge \
             ARCHS=x86_64 SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
-            CODE_SIGNING_ALLOWED=never -quiet
-          echo "ctf tools build exit: $?"
-          set -e
+            CODE_SIGNING_ALLOWED=never -quiet || echo "WARN: dtrace rc=$?"
           echo "=== dtrace build products ==="
-          find $PWD/dst -type f | head -20
+          find $PWD/dst -type f | head -30
           sudo find $PWD/dst -type f -name "ctf*" -exec cp {} /usr/local/bin/ \; || true
           sudo chmod +x /usr/local/bin/ctf* 2>/dev/null || true
-          ls -la /usr/local/bin/ctf* || echo "WARN: no ctf tools in /usr/local/bin" 
+          ls -la /usr/local/bin/ctf* || echo "WARN: no ctf tools"
+          exit 0
 
       - name: Build XNU (DEVELOPMENT, ARM64)
         run: |
@@ -82,7 +76,7 @@ jobs:
           find BUILD -type f -name "mach_kernel"   -exec cp {} out/mach_kernel.development.arm64 \;
           find BUILD -type f -name "mach_kernel.sys" -exec cp {} out/ \; || true
           find BUILD -type f -name "*.unstripped"  -exec cp {} out/ \; || true
-          cp build.log out/ 2>/dev/null || true
+          cp build.log deps.log out/ 2>/dev/null || true
           ls -la out/
 
       - name: Compute SHA256
@@ -99,7 +93,7 @@ jobs:
           git rm -rf --cached . -q 2>/dev/null || true
           mkdir -p logs/run-$GITHUB_RUN_NUMBER
           cp out/* logs/run-$GITHUB_RUN_NUMBER/ 2>/dev/null || true
-          cp build.log logs/run-$GITHUB_RUN_NUMBER/ 2>/dev/null || true
+          cp build.log deps.log logs/run-$GITHUB_RUN_NUMBER/ 2>/dev/null || true
           git add -f logs/run-$GITHUB_RUN_NUMBER || true
           git commit -m "build log run $GITHUB_RUN_NUMBER" || true
           git push origin logs || true
