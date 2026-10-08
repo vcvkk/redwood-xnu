@@ -5,6 +5,9 @@ on:
     branches: [redwood-port]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: macos-latest
@@ -67,6 +70,21 @@ jobs:
       - name: Compute SHA256
         run: |
           cd out && shasum -a 256 * | tee SHA256SUMS
+
+      - name: Push build log to logs branch
+        if: always()
+        run: |
+          git config user.name "ci-log"
+          git config user.email "ci@log"
+          git fetch origin logs || true
+          git checkout logs 2>/dev/null || git checkout --orphan logs
+          git rm -rf --cached . -q 2>/dev/null || true
+          mkdir -p logs/run-$GITHUB_RUN_NUMBER
+          cp out/* logs/run-$GITHUB_RUN_NUMBER/ 2>/dev/null || true
+          cp build.log logs/run-$GITHUB_RUN_NUMBER/ 2>/dev/null || true
+          git add -f logs/run-$GITHUB_RUN_NUMBER || true
+          git commit -m "build log run $GITHUB_RUN_NUMBER" || true
+          git push origin logs || true
 
       - uses: actions/upload-artifact@v4
         with:
