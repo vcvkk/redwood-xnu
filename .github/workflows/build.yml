@@ -1,0 +1,58 @@
+name: Build XNU arm64
+
+on:
+  push:
+    branches: [redwood-port]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show toolchain
+        run: |
+          xcodebuild -version
+          xcrun --show-sdk-path
+
+      - name: Fetch build dependencies
+        run: |
+          curl -sSL -o av.tar.gz \
+            https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-39.tar.gz
+          tar xzf av.tar.gz
+          cd AvailabilityVersions-*
+          make install SRCROOT=$PWD DSTROOT=/usr/local >/dev/null
+
+          curl -sSL -o ld.tar.gz \
+            https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
+          tar xzf ld.tar.gz
+          cd libdispatch-*
+          mkdir -p obj sym dst
+          xcodebuild install -sdk macosx -target libfirehose_kernel \
+            SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
+            ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never >/dev/null 2>&1 || true
+          sudo ditto $PWD/dst/usr/local /
+
+      - name: Build XNU (DEVELOPMENT, ARM64)
+        run: |
+          make SDKROOT=macosx ARCH_CONFIGS=ARM64 KERNEL_CONFIGS=DEVELOPMENT \
+            BUILD_WERROR=0 BUILD_STABS=1 -j$(sysctl -n hw.ncpu)
+
+      - name: Collect artifacts
+        run: |
+          mkdir -p out
+          find BUILD -type f \( -name "mach_kernel*" -o -name "mach" \) | head -20
+          cp BUILD/obj/DEVELOPMENT_ARM64/mach out/mach_kernel.development.arm64 || true
+          cp BUILD/obj/DEVELOPMENT_ARM64/mach.development.unstripped out/ 2>/dev/null || true
+          ls -la out/
+
+      - name: Compute SHA256
+        run: |
+          cd out && shasum -a 256 * | tee SHA256SUMS
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: xnu-arm64-${{ github.run_number }}
+          path: out/
