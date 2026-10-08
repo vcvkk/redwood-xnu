@@ -36,18 +36,21 @@ jobs:
             https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
           tar xzf ld.tar.gz
           cd libdispatch-*
+          # Remove Apple-internal xcconfig includes (BSD.xcconfig / PlatformSupport.xcconfig not on runners)
+          sed -i '' '/Makefiles\/CoreOS\/Xcode\/BSD.xcconfig/d; /AppleInternal\/XcodeConfig\/PlatformSupport.xcconfig/d' xcodeconfig/libdispatch.xcconfig
           mkdir -p obj sym dst
           xcodebuild install -sdk macosx -target libfirehose_kernel \
             SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
             ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never -quiet || echo "WARN: firehose rc=$?"
-          sudo ditto $PWD/dst/usr/local / || true
+          echo "=== firehose dst ==="
+          find $PWD/dst -type f | head -20
+          sudo ditto $PWD/dst/ / || true
           cd ..
 
           curl -fsSL -o dt.tar.gz \
             https://github.com/apple-oss-distributions/dtrace/archive/refs/tags/dtrace-262.tar.gz
           tar xzf dt.tar.gz
-          cd dtrace-262
-          mkdir -p obj sym dst
+          cd apple-oss-distributions-dtrace-*
           xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge \
             ARCHS=x86_64 SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
             CODE_SIGNING_ALLOWED=never -quiet || echo "WARN: dtrace rc=$?"
