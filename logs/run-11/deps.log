@@ -1,0 +1,38 @@
++ curl -fsSL -o av.tar.gz https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-32.30.1.tar.gz
++ tar xzf av.tar.gz
++ cd AvailabilityVersions-AvailabilityVersions-32.30.1
++ sudo make install SRCROOT=/Users/runner/work/redwood-xnu/redwood-xnu/AvailabilityVersions-AvailabilityVersions-32.30.1 DSTROOT=/
++ cd ..
++ curl -fsSL -o ld.tar.gz https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
++ tar xzf ld.tar.gz
++ cd libdispatch-libdispatch-913.30.4
++ sed -i '' '/Makefiles\/CoreOS\/Xcode\/BSD.xcconfig/d; /AppleInternal\/XcodeConfig\/PlatformSupport.xcconfig/d' xcodeconfig/libdispatch.xcconfig
++ mkdir -p obj sym dst
++ xcodebuild install -sdk macosx -target libfirehose_kernel SRCROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4 OBJROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/obj SYMROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/sym DSTROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never -quiet
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/src/firehose/firehose_buffer.c:75:10: fatal error: 'machine/cpu_number.h' file not found
+   75 | #include <machine/cpu_number.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/src/firehose/firehose_buffer.c:75:10: fatal error: 'machine/cpu_number.h' file not found
+   75 | #include <machine/cpu_number.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/src/firehose/firehose_buffer.c:75:10: fatal error: 'machine/cpu_number.h' file not found
+   75 | #include <machine/cpu_number.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+** INSTALL FAILED **
+
++ echo 'WARN: firehose rc=65'
+WARN: firehose rc=65
++ echo '=== firehose dst ==='
+=== firehose dst ===
++ find /Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst -type f
++ head -20
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst/usr/local/include/kernel/os/firehose_buffer_private.h
++ sudo ditto /Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst/ /
++ cd ..
++ curl -fsSL -o dt.tar.gz https://github.com/apple-oss-distributions/dtrace/archive/refs/tags/dtrace-262.tar.gz
++ tar xzf dt.tar.gz
++ cd 'apple-oss-distributions-dtrace-*'
+/Users/runner/work/_temp/5c654b5b-e13e-48ff-8253-bf513eeb8e8a.sh: line 28: cd: apple-oss-distributions-dtrace-*: No such file or directory
