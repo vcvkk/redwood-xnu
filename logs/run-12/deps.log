@@ -1,0 +1,1025 @@
++ curl -fsSL -o av.tar.gz https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-32.30.1.tar.gz
++ tar xzf av.tar.gz
++ cd AvailabilityVersions-AvailabilityVersions-32.30.1
++ sudo make install SRCROOT=/Users/runner/work/redwood-xnu/redwood-xnu/AvailabilityVersions-AvailabilityVersions-32.30.1 DSTROOT=/
++ cd ..
++ make SDKROOT=macosx ARCH_CONFIGS=ARM64 KERNEL_CONFIGS=DEVELOPMENT exporthdrs BUILD_WERROR=0
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+GENERATING    kasan-blacklist-arm64
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+HOST_CC       externs.o
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+HOST_CC       kextsymboltool.o
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+HOST_CC       setsegname.o
+HOST_BISON    parser.c
+HOST_CC       openp.o
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:467:14: warning: 'NXArchInfo' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  467 | static const NXArchInfo *
+      |              ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/arch.h:58:27: note: 'NXArchInfo' has been explicitly marked deprecated here
+   58 | typedef struct NXArchInfo NXArchInfo __CCTOOLS_DEPRECATED;
+      |                           ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:474:15: warning: 'NXArchInfo' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  474 |         static const NXArchInfo archlist[] = {
+      |                      ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/arch.h:58:27: note: 'NXArchInfo' has been explicitly marked deprecated here
+   58 | typedef struct NXArchInfo NXArchInfo __CCTOOLS_DEPRECATED;
+      |                           ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:504:11: warning: 'NXArchInfo' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  504 |     const NXArchInfo *  host_arch;
+      |           ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/arch.h:58:27: note: 'NXArchInfo' has been explicitly marked deprecated here
+   58 | typedef struct NXArchInfo NXArchInfo __CCTOOLS_DEPRECATED;
+      |                           ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:505:11: warning: 'NXArchInfo' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  505 |     const NXArchInfo *  target_arch;
+      |           ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/arch.h:58:27: note: 'NXArchInfo' has been explicitly marked deprecated here
+   58 | typedef struct NXArchInfo NXArchInfo __CCTOOLS_DEPRECATED;
+      |                           ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:519:17: warning: 'NXGetLocalArchInfo' is deprecated: first deprecated in macOS 13.0 [-Wdeprecated-declarations]
+  519 |     host_arch = NXGetLocalArchInfo();
+      |                 ^~~~~~~~~~~~~~~~~~
+      |                 use macho_arch_name_for_mach_header()
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/arch.h:72:26: note: 'NXGetLocalArchInfo' has been explicitly marked deprecated here
+   72 | extern const NXArchInfo *NXGetLocalArchInfo(void) __CCTOOLS_DEPRECATED_MSG("use macho_arch_name_for_mach_header()");
+      |                          ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:784:6: warning: 'swap_mach_header_64' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  784 |             swap_mach_header_64(&hdr, target_arch->byteorder);
+      |             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:63:13: note: 'swap_mach_header_64' has been explicitly marked deprecated here
+   63 | extern void swap_mach_header_64(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:785:6: warning: 'swap_segment_command_64' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  785 |             swap_segment_command_64(&segcmd, target_arch->byteorder);
+      |             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:75:13: note: 'swap_segment_command_64' has been explicitly marked deprecated here
+   75 | extern void swap_segment_command_64(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:824:6: warning: 'swap_mach_header' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  824 |             swap_mach_header(&hdr, target_arch->byteorder);
+      |             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:59:13: note: 'swap_mach_header' has been explicitly marked deprecated here
+   59 | extern void swap_mach_header(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:825:6: warning: 'swap_segment_command' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  825 |             swap_segment_command(&segcmd, target_arch->byteorder);
+      |             ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:71:13: note: 'swap_segment_command' has been explicitly marked deprecated here
+   71 | extern void swap_segment_command(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:837:9: warning: 'swap_symtab_command' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  837 |         swap_symtab_command(&symcmd, target_arch->byteorder);
+      |         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:89:13: note: 'swap_symtab_command' has been explicitly marked deprecated here
+   89 | extern void swap_symtab_command(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:838:9: warning: 'swap_uuid_command' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  838 |         swap_uuid_command(&uuidcmd, target_arch->byteorder);
+      |         ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:217:13: note: 'swap_uuid_command' has been explicitly marked deprecated here
+  217 | extern void swap_uuid_command(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:902:7: warning: 'swap_nlist_64' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  902 |                     swap_nlist_64(&nl, 1, target_arch->byteorder);
+      |                     ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:235:13: note: 'swap_nlist_64' has been explicitly marked deprecated here
+  235 | extern void swap_nlist_64(
+      |             ^
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/kextsymboltool/kextsymboltool.c:932:7: warning: 'swap_nlist' is deprecated: first deprecated in macOS 13.0 - No longer supported [-Wdeprecated-declarations]
+  932 |                     swap_nlist(&nl, 1, target_arch->byteorder);
+      |                     ^
+/Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/mach-o/swap.h:230:13: note: 'swap_nlist' has been explicitly marked deprecated here
+  230 | extern void swap_nlist(
+      |             ^
+HOST_LD       setsegname
+13 warnings generated.
+HOST_LD       kextsymboltool
+HOST_CC       searchp.o
+HOST_FLEX     lexer.yy.c
+HOST_CC       parser.o
+HOST_CC       main.o
+HOST_CC       mkheaders.o
+HOST_CODESIGN kextsymboltool
+HOST_CODESIGN setsegname
+HOST_CC       mkioconf.o
+HOST_CC       mkmakefile.o
+/Users/runner/work/redwood-xnu/redwood-xnu/SETUP/config/mkmakefile.c:565:6: warning: variable 'lpos' set but not used [-Wunused-but-set-variable]
+  565 |         int lpos, len=0; /* dvw: init to 0 */
+      |             ^
+1 warning generated.
+HOST_CC       lexer.yy.o
+HOST_LD       config
+HOST_CODESIGN config
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+HOST_CC       decomment.o
+HOST_LD       decomment
+HOST_CODESIGN decomment
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+HOST_CC       installfile.o
+HOST_LD       installfile
+HOST_CODESIGN installfile
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+HOST_CC       replacecontents.o
+HOST_LD       replacecontents
+HOST_CODESIGN replacecontents
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+MIG clock.h
+MIG clock_priv.h
+MIG host_priv.h
+MIG host_security.h
+MIG ktrace_background.h
+MIG lock_set.h
+MIG mach_host.h
+MIG mach_port.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+MIG mach_vm.h
+MIG mach_voucher.h
+MIG mach_voucher_attr_control.h
+MIG memory_object_control.h
+MIG processor.h
+MIG processor_set.h
+MIG task.h
+MIG task_access.h
+MIG thread_act.h
+MIG upl.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+MIG vm_map.h
+MIG audit_triggers_server.h
+MIG clock_reply_server.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+MIG coalition_notification_server.h
+MIG exc_server.h
+MIG mach_exc_server.h
+MIG memory_object_default_server.h
+MIG notify_server.h
+MIG task_access_server.h
+MIG telemetry_notification_server.h
+MIG sysdiagnose_notification_server.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+MIG gssd_mach.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+[] GENERATING bsd/sys/sysproto.h from /Users/runner/work/redwood-xnu/redwood-xnu/bsd/kern/syscalls.master
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+[] GENERATING /Users/runner/work/redwood-xnu/redwood-xnu/BUILD/obj/syscall.codes from /Users/runner/work/redwood-xnu/redwood-xnu/bsd/kern/syscalls.master
+MIG kextd_mach.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+[] GENERATING bsd/sys/syscall.h from /Users/runner/work/redwood-xnu/redwood-xnu/bsd/kern/syscalls.master
+[] GENERATING bsd/sys/kdebugevents.h from /Users/runner/work/redwood-xnu/redwood-xnu/BUILD/obj/trace.codes
+/bin/sh: /Users/runner/work/redwood-xnu/redwood-xnu/bsd/kern/makekdebugevents.py: /usr/bin/python: bad interpreter: No such file or directory
+make[5]: *** [kdebugevents.h] Error 126
+make[4]: *** [build_exporthdrs_mi] Error 2
+make[3]: *** [build_exporthdrs_mi_recurse_into_sys] Error 2
+make[3]: *** Waiting for unfinished jobs....
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+make[2]: *** [build_exporthdrs_mi_recurse_into_bsd] Error 2
+make[2]: *** Waiting for unfinished jobs....
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+MIG lockd_mach.h
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+[] GENERATING libkern/version.h from /Users/runner/work/redwood-xnu/redwood-xnu/libkern/libkern/version.h.template
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfconvert 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfconvert", not a developer tool or in PATH
+xcrun: error: sh -c '/Applications/Xcode_26.6.app/Contents/Developer/usr/bin/xcodebuild -sdk /Applications/Xcode_26.6.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -find ctfmerge 2> /dev/null' failed with exit code 17664: (null) (errno=No such file or directory)
+xcrun: error: unable to find utility "ctfmerge", not a developer tool or in PATH
+make[1]: *** [build_exporthdrs_mi_bootstrap_DEVELOPMENT^ARM64^NONE] Error 2
+make: *** [exporthdrs] Error 2
++ echo 'WARN: exporthdrs rc=2'
+WARN: exporthdrs rc=2
++ sudo ditto BUILD/dst/usr/local /
+ditto: Cannot get the real path for source 'BUILD/dst/usr/local'
++ true
++ echo '=== installed xnu headers ==='
+=== installed xnu headers ===
++ ls /usr/local/include/machine/cpu_number.h
+ls: /usr/local/include/machine/cpu_number.h: No such file or directory
++ true
++ curl -fsSL -o ld.tar.gz https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
++ tar xzf ld.tar.gz
++ shopt -s nullglob
++ for d in 'libdispatch-*'
++ cd libdispatch-libdispatch-913.30.4
++ sed -i '' '/Makefiles\/CoreOS\/Xcode\/BSD.xcconfig/d; /AppleInternal\/XcodeConfig\/PlatformSupport.xcconfig/d' xcodeconfig/libdispatch.xcconfig
++ mkdir -p obj sym dst
++ xcodebuild install -sdk macosx -target libfirehose_kernel SRCROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4 OBJROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/obj SYMROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/sym DSTROOT=/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never -quiet
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/src/firehose/firehose_buffer.c:75:10: fatal error: 'machine/cpu_number.h' file not found
+   75 | #include <machine/cpu_number.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/src/firehose/firehose_buffer.c:75:10: fatal error: 'machine/cpu_number.h' file not found
+   75 | #include <machine/cpu_number.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/src/firehose/firehose_buffer.c:75:10: fatal error: 'machine/cpu_number.h' file not found
+   75 | #include <machine/cpu_number.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+** INSTALL FAILED **
+
++ echo 'WARN: firehose rc=65'
+WARN: firehose rc=65
++ echo '=== firehose dst ==='
+=== firehose dst ===
++ find /Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst -type f
++ head -20
+/Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst/usr/local/include/kernel/os/firehose_buffer_private.h
++ sudo ditto /Users/runner/work/redwood-xnu/redwood-xnu/libdispatch-libdispatch-913.30.4/dst/ /
++ cd ..
++ curl -fsSL -o dt.tar.gz https://github.com/apple-oss-distributions/dtrace/archive/refs/tags/dtrace-262.tar.gz
++ tar xzf dt.tar.gz
++ xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge ARCHS=x86_64 SRCROOT=/Users/runner/work/redwood-xnu/redwood-xnu OBJROOT=/Users/runner/work/redwood-xnu/redwood-xnu/obj SYMROOT=/Users/runner/work/redwood-xnu/redwood-xnu/sym DSTROOT=/Users/runner/work/redwood-xnu/redwood-xnu/dst CODE_SIGNING_ALLOWED=never -quiet
+2026-10-08 20:33:47.811 xcodebuild[12253:36187] Writing error result bundle to /var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/ResultBundle_2026-08-10_20-33-0047.xcresult
+xcodebuild: error: The directory /Users/runner/work/redwood-xnu/redwood-xnu does not contain an Xcode project.
+
++ echo 'WARN: dtrace rc=66'
+WARN: dtrace rc=66
++ echo '=== dtrace build products ==='
+=== dtrace build products ===
++ find /Users/runner/work/redwood-xnu/redwood-xnu/dst -type f
++ head -30
+find: /Users/runner/work/redwood-xnu/redwood-xnu/dst: No such file or directory
++ sudo find /Users/runner/work/redwood-xnu/redwood-xnu/dst -type f -name 'ctf*' -exec cp '{}' /usr/local/bin/ ';'
+find: /Users/runner/work/redwood-xnu/redwood-xnu/dst: No such file or directory
++ true
++ sudo chmod +x
++ true
++ ls -la
+total 5600
+drwxr-xr-x  34 runner  staff     1088 Oct  8 20:33 .
+drwxr-xr-x   3 runner  staff       96 Oct  8 20:29 ..
+-rw-r--r--   1 runner  staff     3168 Oct  8 20:29 .clang-format
+drwxr-xr-x  14 runner  staff      448 Oct  8 20:29 .git
+drwxr-xr-x   3 runner  staff       96 Oct  8 20:29 .github
+-rw-r--r--   1 runner  staff     1699 Oct  8 20:29 .gitignore
+-rw-r--r--   1 runner  staff      478 Oct  8 20:29 .upstream_base_commits
+-rw-r--r--   1 runner  staff    19829 Oct  8 20:29 APPLE_LICENSE
+-rw-r--r--   1 runner  staff      958 Oct  8 20:29 av.tar.gz
+drwxr-xr-x   4 runner  staff      128 Oct  6  2021 AvailabilityVersions-AvailabilityVersions-32.30.1
+drwxr-xr-x  26 runner  staff      832 Oct  8 20:29 bsd
+drwxr-xr-x   3 runner  staff       96 Oct  8 20:30 BUILD
+drwxr-xr-x  43 runner  staff     1376 Oct  8 20:29 config
+-rw-r--r--   1 runner  staff   159399 Oct  8 20:33 deps.log
+-rw-r--r--   1 runner  staff  2128189 Oct  8 20:33 dt.tar.gz
+drwxr-xr-x  31 runner  staff      992 Oct  6  2021 dtrace-dtrace-262
+drwxr-xr-x  16 runner  staff      512 Oct  8 20:29 EXTERNAL_HEADERS
+drwxr-xr-x  12 runner  staff      384 Oct  8 20:29 iokit
+-rw-r--r--   1 runner  staff   463101 Oct  8 20:33 ld.tar.gz
+drwxr-xr-x  26 runner  staff      832 Oct  8 20:33 libdispatch-libdispatch-913.30.4
+drwxr-xr-x  17 runner  staff      544 Oct  8 20:29 libkdd
+drwxr-xr-x  22 runner  staff      704 Oct  8 20:29 libkern
+drwxr-xr-x   7 runner  staff      224 Oct  8 20:29 libsa
+drwxr-xr-x  10 runner  staff      320 Oct  8 20:29 libsyscall
+drwxr-xr-x   8 runner  staff      256 Oct  8 20:29 makedefs
+-rw-r--r--   1 runner  staff     6252 Oct  8 20:29 Makefile
+drwxr-xr-x  33 runner  staff     1056 Oct  8 20:29 osfmk
+drwxr-xr-x   8 runner  staff      256 Oct  8 20:29 pexpert
+-rw-r--r--   1 runner  staff    16773 Oct  8 20:29 README.md
+-rw-r--r--   1 runner  staff     1401 Oct  8 20:29 REDWOOD.md
+drwxr-xr-x  22 runner  staff      704 Oct  8 20:29 san
+drwxr-xr-x  37 runner  staff     1184 Oct  8 20:29 security
+drwxr-xr-x  12 runner  staff      384 Oct  8 20:29 SETUP
+drwxr-xr-x  13 runner  staff      416 Oct  8 20:29 tools
++ exit 0
