@@ -16,36 +16,46 @@ jobs:
         run: |
           xcodebuild -version
           xcrun --show-sdk-path
+          xcrun --sdk macosx --show-sdk-version
 
       - name: Fetch build dependencies
         run: |
-          curl -sSL -o av.tar.gz \
-            https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-39.tar.gz
+          set -x
+          # AvailabilityVersions: тег 32.30.1 (пара к xnu-4570, по рецепту fergofrog)
+          curl -fsSL -o av.tar.gz \
+            https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-32.30.1.tar.gz
           tar xzf av.tar.gz
-          cd AvailabilityVersions-*
-          make install SRCROOT=$PWD DSTROOT=/usr/local >/dev/null
+          cd AvailabilityVersions-32.30.1
+          sudo make install SRCROOT=$PWD DSTROOT=/ >/dev/null
 
-          curl -sSL -o ld.tar.gz \
+          # libfirehose_kernel из libdispatch (913.30.4 — пара к xnu-4570.41.2)
+          curl -fsSL -o ld.tar.gz \
             https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
           tar xzf ld.tar.gz
-          cd libdispatch-*
+          cd libdispatch-913.30.4
           mkdir -p obj sym dst
+          set +e
           xcodebuild install -sdk macosx -target libfirehose_kernel \
             SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
-            ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never >/dev/null 2>&1 || true
-          sudo ditto $PWD/dst/usr/local /
+            ENABLE_BITCODE=no CODE_SIGNING_ALLOWED=never -quiet
+          echo "libfirehose build exit: $?"
+          set -e
+          sudo ditto $PWD/dst/usr/local / || true
+          ls -la /usr/local/include/firehose 2>/dev/null || find $PWD/dst -name "*firehose*" | head
 
       - name: Build XNU (DEVELOPMENT, ARM64)
         run: |
           make SDKROOT=macosx ARCH_CONFIGS=ARM64 KERNEL_CONFIGS=DEVELOPMENT \
-            BUILD_WERROR=0 BUILD_STABS=1 -j$(sysctl -n hw.ncpu)
+            BUILD_WERROR=0 BUILD_STABS=1 -j$(sysctl -n hw.ncpu) 2>&1 | tee build.log | tail -60
 
       - name: Collect artifacts
+        if: always()
         run: |
           mkdir -p out
-          find BUILD -type f \( -name "mach_kernel*" -o -name "mach" \) | head -20
-          cp BUILD/obj/DEVELOPMENT_ARM64/mach out/mach_kernel.development.arm64 || true
-          cp BUILD/obj/DEVELOPMENT_ARM64/mach.development.unstripped out/ 2>/dev/null || true
+          find . -maxdepth 4 -type f -name "mach*" 2>/dev/null | head -20
+          cp BUILD/obj/DEVELOPMENT_ARM64/mach out/mach_kernel.development.arm64 2>/dev/null || true
+          find . -name "*.unstripped" -exec cp {} out/ \; 2>/dev/null || true
+          cp build.log out/ 2>/dev/null || true
           ls -la out/
 
       - name: Compute SHA256
@@ -56,3 +66,4 @@ jobs:
         with:
           name: xnu-arm64-${{ github.run_number }}
           path: out/
+          if-no-files-found: warn
