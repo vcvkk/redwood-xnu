@@ -32,10 +32,18 @@ jobs:
           sudo make install SRCROOT=$PWD DSTROOT=/ || echo "WARN: av install rc=$?"
           cd ..
 
+          # Build XNU kernel headers FIRST (firehose needs <machine/cpu_number.h> from them)
+          make SDKROOT=macosx ARCH_CONFIGS=ARM64 KERNEL_CONFIGS=DEVELOPMENT exporthdrs \
+            BUILD_WERROR=0 || echo "WARN: exporthdrs rc=$?"
+          sudo ditto BUILD/dst/usr/local / || true
+          echo "=== installed xnu headers ==="
+          ls /usr/local/include/machine/cpu_number.h || true
+
           curl -fsSL -o ld.tar.gz \
             https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
           tar xzf ld.tar.gz
-          cd libdispatch-*
+          shopt -s nullglob
+          for d in libdispatch-*; do cd "$d"; done
           # Remove Apple-internal xcconfig includes (BSD.xcconfig / PlatformSupport.xcconfig not on runners)
           sed -i '' '/Makefiles\/CoreOS\/Xcode\/BSD.xcconfig/d; /AppleInternal\/XcodeConfig\/PlatformSupport.xcconfig/d' xcodeconfig/libdispatch.xcconfig
           mkdir -p obj sym dst
@@ -50,7 +58,7 @@ jobs:
           curl -fsSL -o dt.tar.gz \
             https://github.com/apple-oss-distributions/dtrace/archive/refs/tags/dtrace-262.tar.gz
           tar xzf dt.tar.gz
-          cd apple-oss-distributions-dtrace-*
+          for d in apple-oss-distributions-dtrace-*; do cd "$d"; done
           xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge \
             ARCHS=x86_64 SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst \
             CODE_SIGNING_ALLOWED=never -quiet || echo "WARN: dtrace rc=$?"
