@@ -45,15 +45,18 @@ jobs:
 
       - name: Build XNU (DEVELOPMENT, ARM64)
         run: |
+          set -o pipefail
           make SDKROOT=macosx ARCH_CONFIGS=ARM64 KERNEL_CONFIGS=DEVELOPMENT \
-            BUILD_WERROR=0 BUILD_STABS=1 -j$(sysctl -n hw.ncpu) 2>&1 | tee build.log | tail -60
+            BUILD_WERROR=0 BUILD_STABS=1 -j$(sysctl -n hw.ncpu) 2>&1 | tee build.log
+          echo "## Build tail" >> $GITHUB_STEP_SUMMARY
+          tail -50 build.log >> $GITHUB_STEP_SUMMARY || true
 
       - name: Collect artifacts
         if: always()
         run: |
           mkdir -p out
           echo "=== all mach* files in BUILD ==="
-          find BUILD -type f -name "mach*" | head -30
+          find BUILD -type f -name "mach*" | head -30 | tee -a build.log || true
           # bootable image is mach_kernel (README: $(OBJROOT)/.../mach_kernel), symbols: mach_kernel.sys / *.unstripped
           find BUILD -type f -name "mach_kernel"   -exec cp {} out/mach_kernel.development.arm64 \;
           find BUILD -type f -name "mach_kernel.sys" -exec cp {} out/ \; || true
