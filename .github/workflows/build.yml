@@ -58,12 +58,11 @@ jobs:
             CODE_SIGNING_ALLOWED=never -quiet
           echo "ctf tools build exit: $?"
           set -e
-          sudo ditto $PWD/dst/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain / 2>/dev/null \
-            || sudo ditto $PWD/dst/usr/local / 2>/dev/null \
-            || sudo ditto $PWD/dst/ /usr/local/ 2>/dev/null || true
-          find / -name "ctfconvert" -maxdepth 6 2>/dev/null | head -3
-          sudo cp $(find $PWD/dst -name ctfconvert -o -name ctfmerge -o -name ctfdump | head -5) /usr/local/bin/ 2>/dev/null || true
-          ls -la /usr/local/bin/ctf* 2>/dev/null || echo "CTF tools not in /usr/local/bin yet" 
+          echo "=== dtrace build products ==="
+          find $PWD/dst -type f | head -20
+          sudo find $PWD/dst -type f -name "ctf*" -exec cp {} /usr/local/bin/ \; || true
+          sudo chmod +x /usr/local/bin/ctf* 2>/dev/null || true
+          ls -la /usr/local/bin/ctf* || echo "WARN: no ctf tools in /usr/local/bin" 
 
       - name: Build XNU (DEVELOPMENT, ARM64)
         run: |
