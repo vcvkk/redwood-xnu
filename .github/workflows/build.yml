@@ -52,9 +52,12 @@ jobs:
         if: always()
         run: |
           mkdir -p out
-          find . -maxdepth 4 -type f -name "mach*" 2>/dev/null | head -20
-          cp BUILD/obj/DEVELOPMENT_ARM64/mach out/mach_kernel.development.arm64 2>/dev/null || true
-          find . -name "*.unstripped" -exec cp {} out/ \; 2>/dev/null || true
+          echo "=== all mach* files in BUILD ==="
+          find BUILD -type f -name "mach*" | head -30
+          # bootable image is mach_kernel (README: $(OBJROOT)/.../mach_kernel), symbols: mach_kernel.sys / *.unstripped
+          find BUILD -type f -name "mach_kernel"   -exec cp {} out/mach_kernel.development.arm64 \;
+          find BUILD -type f -name "mach_kernel.sys" -exec cp {} out/ \; || true
+          find BUILD -type f -name "*.unstripped"  -exec cp {} out/ \; || true
           cp build.log out/ 2>/dev/null || true
           ls -la out/
 
