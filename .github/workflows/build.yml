@@ -25,14 +25,14 @@ jobs:
           curl -fsSL -o av.tar.gz \
             https://github.com/apple-oss-distributions/AvailabilityVersions/archive/refs/tags/AvailabilityVersions-32.30.1.tar.gz
           tar xzf av.tar.gz
-          cd AvailabilityVersions-32.30.1
+          cd AvailabilityVersions-*
           sudo make install SRCROOT=$PWD DSTROOT=/ >/dev/null
 
           # libfirehose_kernel из libdispatch (913.30.4 — пара к xnu-4570.41.2)
           curl -fsSL -o ld.tar.gz \
             https://github.com/apple-oss-distributions/libdispatch/archive/refs/tags/libdispatch-913.30.4.tar.gz
           tar xzf ld.tar.gz
-          cd libdispatch-913.30.4
+          cd libdispatch-*
           mkdir -p obj sym dst
           set +e
           xcodebuild install -sdk macosx -target libfirehose_kernel \
